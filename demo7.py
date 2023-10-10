@@ -1,14 +1,16 @@
-"""i=1 #initial value for line
-while i<=5: #outer loop for line
-    j=1 #initial value for column
-    while j<=i: #inner lool for column
-        print("*",end="")
-        j=j+1#increment column j by 1
-    i=i+1 #increment line i by 1
-    print() #go to new line"""
+def sum_of_digits(num):
+    total = 0
+    while num > 0:
+        total += num % 10
+        num = num // 10
+    return total
 
+# Taking user input
+num = int(input("Enter a positive integer: "))
 
-for i in range(1,6):
-    for j in range(1,i+1):
-        print("*",end="")
-    print()    
+# Checking if the input is valid
+if num < 0:
+    print("Please enter a positive integer.")
+else:
+    result = sum_of_digits(num)
+    print(f"The sum of the digits of {num} is {result}")
