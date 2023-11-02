@@ -1,0 +1,22 @@
+to perform read and write and even append on the file we can combine 
+r,w and a with +(extra)
+r+ : this is read and append
+w+ : is write and read
+a+ : append and read
+
+The diffrence btw r+ and a+ 
+In r+ new file is not create whereas in a+ new file can be created 
+
+object oriented programming is not only focus on the function but also
+on the entity which invole in the implementation of that function
+Object are some real world entity , every object is associated with two 
+thing 
+1. Attributes/Property/Data variable
+2. Behaviour/Method/Function
+this object are the instint of some class which contain the attributes and method we can also say that class is  simply a template or blue print of the object
+
+syntax :
+object=clasname()   #class classname:
+
+__main_ it is the first user specified python mdule that start running it is also as an entry point to the application,it is a top level code
+as it import all the other module that a program need 
